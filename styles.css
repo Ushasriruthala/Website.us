@@ -18,28 +18,30 @@ header {
     padding: 20px 0;
 }
 
-nav {
-    background-color: Grey;
-    padding: 18px;
+nav ul{
+	list-style-type:none;
+    background-color:#081b29;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	
+    }
+nav li{
+	float:left;
+	margin-right:10px;
+	font-size:1.2em;
 }
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 16px;
+            text-decoration: none;
+        }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content:right;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
+        nav a:hover {
+            background-color: #333;
+        }
 section {
     padding: 40px 0;
 }
