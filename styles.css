@@ -19,9 +19,7 @@ nav ul{
 	overflow:hidden;
 	
     }
-nav li{
-	float:left;
-}
+
         nav a {
             display: block;
             color: white;
