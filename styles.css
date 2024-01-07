@@ -17,13 +17,15 @@ nav ul{
 	padding:0;
 	margin:0;
 	overflow:hidden;
-	
     }
+nav li{
+	margin-right:1px;
+	font-size:1em;
 
         nav a {
             display: block;
             color: white;
-            text-align: center;
+            text-align: left;
             padding: 14px 16px;
             text-decoration: none;
         }
